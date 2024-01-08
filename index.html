@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./index.css" />
+
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       rel="stylesheet"
@@ -22,58 +22,100 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Yu Mincho:wght@400&display=swap"
     />
+    <style>
+      /* フォント */
+
+      .fullHeightContainer {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+      }
+
+      @media (min-width: 768px) {
+        /* lg breakpoint */
+        .vh-lg-100 {
+          height: 80vh;
+        }
+      }
+    </style>
   </head>
   <body>
-    <div
-      class="d-flex align-items-center justify-content-start text-white"
-      style="height: 80vh"
-    >
+    <div class="bg-image">
       <div
-        class="position-relative w-100 mx-auto overflow-hidden d-flex align-items-center fullHeightContainer justify-content-start text-center"
+        class="d-flex align-items-center justify-content-start text-white"
+        style="height: 80vh"
       >
-        <div class="position-relative">
-          <img
-            src="public/firstimage.png"
-            alt="Description of the image"
-            class="img-fluid vh-lg-100"
-          />
-          <div class="position-absolute relativeFontSize text-position0">
-            あなたのマインドブロックは？
+        <div
+          class="position-relative w-100 mx-auto overflow-hidden d-flex align-items-center fullHeightContainer justify-content-start text-center"
+        >
+          <div class="position-relative">
+            <img
+              src="public/firstimage.png"
+              alt="Description of the image"
+              class="img-fluid vh-lg-100"
+            />
+            <div class="position-absolute text-position0">+150万円</div>
+            <div class="position-absolute text-position1 text-white">
+              コンサル
+            </div>
+            <div class="position-absolute subtext-position1 text-white">
+              コンサル
+            </div>
+            <div class="position-absolute subtext-position2 text-white">
+              コンサル
+            </div>
+            <div class="position-absolute subtext-position3 text-white">
+              コンサル
+            </div>
+            <div class="position-absolute text-position2 text-white">
+              コンサル
+            </div>
+            <div class="position-absolute text-position3 text-white">
+              コンサル
+            </div>
+            <div class="position-absolute text-position4 text-white">
+              コンサル
+            </div>
+            <div class="position-absolute text-position5 text-white">
+              コンサル
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div
-      class="d-flex flex-item flex-column align-items-center justify-content-center"
-      style="flex: 2; height: 20%"
-    >
-      <div class="">結果を友達にシェアしよう！</div>
-      <div class="d-flex flex-row justify-content-center">
-        <img src="public/facebook.png" alt="Facebook" class="btn" />
-        <img src="public/twitter.png" alt="Twitter" class="btn" />
-        <img src="public/instagram.png" alt="Instagram" class="btn" />
-        <img src="public/line.png" alt="LinkedIn" class="btn" />
+      <div
+        class="d-flex flex-item flex-column align-items-center justify-content-center"
+        style="height: 20vh"
+      >
+        <div class="relativeFontSize text-white">
+          結果を友達にシェアしよう！
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+          <img src="public/facebook.png" alt="Facebook" class="btn" />
+          <img src="public/twitter.png" alt="Twitter" class="btn" />
+          <img src="public/instagram.png" alt="Instagram" class="btn" />
+          <img src="public/line.png" alt="LinkedIn" class="btn" />
+        </div>
       </div>
     </div>
 
     <div class="tablet-design-re">
       <!-- 本文 -->
       <div class="div2">
-        <div class="div1">1.あなたの年収アップ度</div>
+        <div class="div1 relativeFontSize1">1.あなたの年収アップ度</div>
         <div class="up1">
-          <div class="div1">「期待UP年収：+150万円」</div>
+          <div class="div1 relativeFontSize2">「期待UP年収：+150万円」</div>
         </div>
-        <div class="iq">
+        <div class="iq relativeFontSize2">
           年収UPの理由：あなたは東京大学卒で、経済学と経営学のバックグラウンドがあり、過去にはCEOの経験とデジタルマーケティング、ビジネスディベロップメントの実績があります。ITマーケティングで人事統括責任者としての経験と上場準備のサポート経験もあります。コンサル業界では、特に戦略コンサルタントとしての経験とスキルが高く評価され、大手コンサルティングファームなどでは年収850万円以上が見込まれます。また、人生のゴール「世界で1億人を幸せにすること」を考えると、より大きな影響力を持つ業界や役職に就くことが期待されます。したがって、年収600万円からの増額分+250万円は妥当な見積もりです。
         </div>
       </div>
       <div class="div4">
-        <div class="div5">2.あなたに合う業界</div>
+        <div class="div5 relativeFontSize1">2.あなたに合う業界</div>
         <div class="div6">
-          <div class="div1">No.1：経営コンサル</div>
+          <div class="div1 relativeFontSize2">No.1：経営コンサル</div>
         </div>
-        <div class="iq">
+        <div class="iq relativeFontSize2">
           <p class="p">1. 業界の概要</p>
           <p class="p">
               - 経営コンサル業界では、
@@ -105,10 +147,10 @@
             あるいは、人事統括責任者の経験を利用して、組織開発や人材マネジメントの専門家として貢献することもできます。大手企業をクライアントにしていくと、あなたにとってもやりがいのある仕事になるでしょう。
           </p>
         </div>
-        <div class="div6">
+        <div class="div6 relativeFontSize2">
           <div class="div1">No.2：ヘルスケアテック</div>
         </div>
-        <div class="iq">
+        <div class="iq relativeFontSize2">
           <p class="p">1. 業界の概要</p>
           <p class="p">   - 医療や健康関連の技術開発を行う業界。</p>
           <p class="p">
@@ -136,10 +178,10 @@
             マーケティングスキルを生かして、サービスの普及と市場拡大に注力。
           </p>
         </div>
-        <div class="div9">
+        <div class="div9 relativeFontSize2">
           <div class="no3">No.3：テクノロジー系ベンチャー</div>
         </div>
-        <div class="iq">
+        <div class="iq relativeFontSize2">
           <p class="p">1. 業界の概要</p>
           <p class="p">
                -
@@ -172,11 +214,11 @@
         </div>
       </div>
       <div class="div4">
-        <div class="div5">3.あなたにおすすめの転職先</div>
-        <div class="div6">
+        <div class="div5 relativeFontSize1">3.あなたにおすすめの転職先</div>
+        <div class="div6 relativeFontSize2">
           <div class="div1">No.1：マッキンゼー・アンド・カンパニー</div>
         </div>
-        <div class="iq">
+        <div class="iq relativeFontSize2">
           <p class="p">職種：経営コンサルタント　</p>
           <p class="p">役職：アソシエイト　</p>
           <p class="p">期待年収：1,200万円</p>
@@ -198,10 +240,10 @@
             この企業で活躍するためには、持ち前の学習欲と戦略性を活かして、クライアントのニーズを深く理解し、実行可能な解決策を提供することです。
           </p>
         </div>
-        <div class="div6">
+        <div class="div6 relativeFontSize2">
           <div class="div1">No.2：任天堂株式会社</div>
         </div>
-        <div class="iq">
+        <div class="iq relativeFontSize2">
           <p class="p">職種：ビジネスディベロッパー　</p>
           <p class="p">役職：マネージャー　</p>
           <p class="p">期待年収：800万円</p>
@@ -224,9 +266,9 @@
           </p>
         </div>
         <div class="div6">
-          <div class="div1">No.3：メドピア株式会社</div>
+          <div class="div1 relativeFontSize2">No.3：メドピア株式会社</div>
         </div>
-        <div class="iq">
+        <div class="iq relativeFontSize2">
           <p class="p">職種：プロダクトマネージャー　</p>
           <p class="p">役職：シニアマネージャー　</p>
           <p class="p">期待年収：900万円</p>
@@ -250,45 +292,49 @@
         </div>
       </div>
       <div class="div4">
-        <div class="div5">4.あなたの社会における強み</div>
-        <div class="div18">
+        <div class="div5 relativeFontSize1">4.あなたの社会における強み</div>
+        <div class="div18 relativeFontSize2">
           <div class="div1">1．【戦略王子】</div>
         </div>
-        <div class="iq">
+        <div class="iq relativeFontSize2">
              あなたのMBTIであるINTJは、将来に向けた長期計画を練るのが得意で、戦略性が非常に高いことを示しています。東京大学卒業という学歴と同時にCEO経験があり、起業家精神と経営戦略の知識をバランスよく併せ持っているため、どのような課題に対しても緻密な戦略を立案し実行できるでしょう。
         </div>
-        <div class="div18">
+        <div class="div18 relativeFontSize2">
           <div class="div1">2. 【分析頭脳】</div>
         </div>
-        <div class="iq">
+        <div class="iq relativeFontSize2">
              高いIQを誇るあなたは、さまざまな情報を論理的に処理し、深い分析力を発揮することができます。特に経済学経営学科の専攻は、経済やビジネスの複雑な問題に取り組む際に役立つでしょう。具体的な経験として、多くのPVを達成したメディア運営や、アプリ開発からもデータに基づく分析能力が高いことが伺えます。
         </div>
-        <div class="div18">
+        <div class="div18 relativeFontSize2">
           <div class="div1">3. 【個別カスタム】</div>
         </div>
-        <div class="iq">
+        <div class="iq relativeFontSize2">
              ストレングスファインダーでの「個別性」を含む5つの上位資質は、メンバーの個性や個々の状況に応じたマネジメント能力に長けており、人事統括責任者としてチームや組織にフィットする最適な採用戦略や人材開発を行ってきました。さらには、ビジネスディベロップメント経験からも、プロジェクトごとに特化した個別のアプローチを取るスキルがうかがえます。
         </div>
       </div>
       <div class="div25">
-        <div class="div1">5.あなたが転職するためのポイント</div>
-        <div class="up1">
-          <div class="div1">自己分析と戦略的アプローチ</div>
+        <div class="div1 relativeFontSize1">
+          5.あなたが転職するためのポイント
         </div>
-        <div class="iq">
+        <div class="up1">
+          <div class="div1 relativeFontSize2">自己分析と戦略的アプローチ</div>
+        </div>
+        <div class="iq relativeFontSize2">
           転職活動では、あなたの内省的でもあるINTJタイプを活かし、自己分析に基づいた緻密な計画を立てることが重要でしょう。まずは、長期的なキャリアプランを具体化し、戦略性と”学習欲”を活かして市場価値を高めるスキルや知識を身につけてください。また、協調性と開放性を活かしてネットワーキングを作っていき、多様な視点と情報を取り入れていくといいでしょう。面接では、チームや組織への貢献を前面に出すことで、あなたの”個別性”の脂質を理解する会社を見つけることができるでしょう。高い誠実性で結果を出す姿勢は、面接での信頼感を高めるポイントです。
         </div>
       </div>
       <div class="div29">
-        <div class="div1">6.あなたへの応援メッセージ</div>
+        <div class="div1 relativeFontSize1">6.あなたへの応援メッセージ</div>
         <div class="position-relative">
           <img class="icon" alt="" src="./public/message.png" />
-          <div class="position-absolute message-text-position text-black">
+          <div class="position-absolute message-text-position">
             転職活動では、あなたの内省的でもあるINTJタイプを活かし、自己分析に基づいた緻密な計画を立てることが重要でしょう。まずは、長期的なキャリアプランを具体化し、戦略性と”学習欲”を活かして市場価値を高めるスキルや知識を身につけてください。また、協調性と開放性を活かしてネットワーキングを作っていき、多様な視点と情報を取り入れていくといいでしょう。面接では、チームや組織への貢献を前面に出すことで、あなたの”個別性”の脂質を理解する会社を見つけることができるでしょう。高い誠実性で結果を出す姿勢は、面接での信頼感を高めるポイントです。
           </div>
         </div>
 
-        <div class="div31">応援メッセージをダウンロード！</div>
+        <div class="div31 relativeFontSize2">
+          応援メッセージをダウンロード！
+        </div>
         <button class="mask-group">
           <img
             class="sl-z-072523-61700-01-1-icon"
