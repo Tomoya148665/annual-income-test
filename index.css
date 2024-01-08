@@ -1,0 +1,620 @@
+.coverimage {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+
+.y3-1-icon {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 491.4px);
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 964.9px;
+  object-fit: cover;
+}
+.xxxxx,
+.xxxxx1,
+.xxxxx2,
+.xxxxx3 {
+  position: absolute;
+  display: inline-block;
+}
+.xxxxx {
+  top: 370.7px;
+  left: 318.7px;
+  font-size: 27px;
+  width: 273.5px;
+  height: 56.7px;
+}
+.xxxxx1,
+.xxxxx2,
+.xxxxx3 {
+  top: 442.7px;
+  left: 323.9px;
+  width: 93.5px;
+  height: 35.2px;
+}
+.xxxxx2,
+.xxxxx3 {
+  left: 470.1px;
+}
+.xxxxx3 {
+  left: 616.2px;
+}
+.xxxxx4,
+.xxxxx5 {
+  left: 318.7px;
+  font-size: 29px;
+  display: inline-block;
+  width: 206.2px;
+  height: 57.5px;
+}
+.xxxxx4 {
+  position: absolute;
+  top: 719.6px;
+}
+.xxxxx5 {
+  top: 783.7px;
+}
+.div,
+.xxxxx5,
+.xxxxx6 {
+  position: absolute;
+}
+.xxxxx6 {
+  top: 846.1px;
+  left: 318.7px;
+  font-size: 29px;
+  display: inline-block;
+  width: 206.2px;
+  height: 57.5px;
+}
+.div {
+  top: 141.3px;
+  left: 344.3px;
+  font-size: 70px;
+  font-family: "Dela Gothic One";
+  transform: rotate(-3deg);
+  transform-origin: 0 0;
+}
+.b {
+  top: 566.5px;
+  left: 317.1px;
+  font-size: 24px;
+  width: 411.5px;
+  height: 55px;
+}
+.b,
+.b1,
+.up {
+  position: absolute;
+  display: inline-block;
+}
+.up {
+  top: 913px;
+  left: 14.3px;
+  font-size: 24px;
+  width: 395.6px;
+  height: 63.5px;
+  text-shadow: 2px 0 0#c5a637, 0 2px 0#c5a637, -2px 0 0#c5a637, 0-2px 0#c5a637;
+}
+.b1 {
+  top: 918.4px;
+  left: 576.7px;
+  font-size: 23px;
+  color: #000;
+  width: 160.9px;
+  height: 64.4px;
+}
+.y3-1-parent {
+  width: 746.1px;
+  height: 982.8px;
+}
+.div1,
+.y3-1-parent {
+  position: relative;
+}
+.clip-path-group,
+.group-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.group-icon {
+  height: 63.01%;
+  width: 63%;
+  top: 18.58%;
+  right: 18.5%;
+  bottom: 18.41%;
+  left: 18.5%;
+}
+.group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 60px;
+  height: 59.2px;
+}
+.vector-icon,
+.vector-icon1 {
+  position: absolute;
+  height: 99.49%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0.51%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.vector-icon1 {
+  height: 80.57%;
+  width: 42.83%;
+  top: 19.59%;
+  right: 27.67%;
+  bottom: -0.17%;
+  left: 29.5%;
+}
+.sl-z-072523-61700-01-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.mask-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+.line-app-1-icon {
+  position: absolute;
+  top: -8.6px;
+  left: -10.7px;
+  width: 81.4px;
+  height: 81.4px;
+  object-fit: cover;
+}
+.group-parent,
+.sns {
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.group-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+}
+.sns {
+  flex-direction: column;
+  gap: 16px;
+  font-size: 3fir2px;
+  font-family: "Yu Mincho";
+}
+.sns,
+.firstview,
+.up1 {
+  display: flex;
+  align-items: center;
+}
+.firstview {
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 108px 623px;
+  gap: 40px;
+  background-image: url(./public/1stview@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: 13px;
+  font-family: "Noto Sans JP";
+}
+.up1 {
+  align-self: stretch;
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: center;
+  padding: 4px 10px;
+  font-size: 20px;
+  color: #c5a638;
+}
+.div2,
+.div5 {
+  font-size: 28px;
+}
+.div2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.div5 {
+  position: relative;
+}
+.div6 {
+  align-self: stretch;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px;
+  color: #c5a638;
+}
+.p {
+  margin: 0;
+}
+.iq,
+.no3 {
+  position: relative;
+}
+.iq {
+  align-self: stretch;
+  font-size: 16px;
+  line-height: 200%;
+  font-family: "Noto Sans JP";
+}
+.no3 {
+  flex: 1;
+}
+.div4,
+.div9 {
+  justify-content: center;
+}
+.div9 {
+  align-self: stretch;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 10px;
+  text-align: center;
+  color: #c5a638;
+}
+.div4 {
+  flex-direction: column;
+  gap: 24px;
+}
+.div18,
+.div25,
+.div4 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.div18 {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 4px 10px;
+}
+.div25 {
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  font-size: 28px;
+}
+.div31,
+.icon {
+  position: relative;
+}
+.icon {
+  width: 80vw;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (min-width: 1000px) {
+  .icon {
+    width: 800px;
+    height: auto;
+  }
+}
+
+.div31 {
+  font-size: 20px;
+}
+.div29,
+.footer,
+.tablet-design-re {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div29 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 28px;
+}
+.footer,
+.tablet-design-re {
+  overflow: hidden;
+}
+.footer {
+  background-color: #111;
+  width: 768px;
+  height: 360px;
+  flex-shrink: 0;
+  flex-direction: row;
+  font-family: "Noto Sans JP";
+}
+.tablet-design-re {
+  position: relative;
+  background: linear-gradient(180deg, #c5a637, #a4892c);
+  width: 100%;
+  flex-direction: column;
+  padding: 100px 40px;
+  box-sizing: border-box;
+  gap: 40px;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: "Yu Mincho";
+}
+
+.bd {
+  background-color: #c5a637;
+  border: solid 0.1px #111;
+}
+
+.box {
+  text-align: center; /* 中央揃え */
+  color: white; /* 文字色 */
+  padding: 20px; /* パディング */
+  margin: 5px; /* マージン */
+}
+
+.red {
+  background-color: red; /* 赤色の背景 */
+}
+
+.blue {
+  background-color: blue; /* 青色の背景 */
+}
+
+.green {
+  background-color: green; /* 緑色の背景 */
+}
+
+.flex-grow-8 {
+  flex-grow: 8;
+  display: flex; /* Flexboxコンテナに設定 */
+  justify-content: center; /* 水平方向の中央揃え */
+}
+
+.img-fluid {
+  width: auto; /* 親要素の幅に合わせて最大幅を設定 */
+  max-height: 100%; /* 高さを自動調整 */
+  object-fit: contain; /* 画像が自然にフィットするように設定 */
+  object-position: center;
+}
+
+.flex-grow-2 {
+  flex-grow: 3;
+}
+
+.flex-grow-custom {
+  flex-grow: 3;
+}
+
+.flex-grow-custom-1 {
+  flex: 1; /* flex-grow: 1, flex-shrink: 1, flex-basis: 0% */
+}
+
+.flex-grow-custom-3 {
+  flex-grow: 3; /* flex-growのみを3に設定 */
+}
+
+.btn {
+  width: 10vh;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 1; /* flex-shrinkを適用 */
+}
+
+.bg-image {
+  background-image: url("public/1stview@3x.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-lg {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .img-lg {
+    width: auto !important;
+    height: 100% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .vh-lg-100 {
+    height: 80vh;
+  }
+}
+
+/* 表紙の文字位置調整 */
+
+.text-position0 {
+  left: 45%;
+  top: 14%;
+  font-size: 9vw;
+  transform: rotate(-3deg);
+  font-family: "Dela Gothic One";
+}
+
+.text-position1 {
+  left: 43%;
+  top: 40%;
+  font-size: 2.4vw;
+  font-family: "Noto Sans JP";
+}
+
+.subtext-position1 {
+  left: 42%;
+  top: 46%;
+  font-size: 1.9vw;
+  font-family: "Noto Sans JP";
+}
+
+.subtext-position2 {
+  left: 61%;
+  top: 46%;
+  font-size: 1.9vw;
+  font-family: "Noto Sans JP";
+}
+
+.subtext-position3 {
+  left: 80%;
+  top: 46%;
+  font-size: 1.9vw;
+  font-family: "Noto Sans JP";
+}
+
+.text-position2 {
+  left: 43%;
+  top: 60%;
+  font-size: 2.4vw;
+  font-family: "Noto Sans JP";
+}
+
+.text-position3 {
+  left: 43%;
+  top: 75.5%;
+  font-size: 2.4vw;
+  font-family: "Noto Sans JP";
+}
+
+.text-position4 {
+  left: 43%;
+  top: 82%;
+  font-size: 2.4vw;
+  font-family: "Noto Sans JP";
+}
+
+.text-position5 {
+  left: 43%;
+  top: 89%;
+  font-size: 2.4vw;
+  font-family: "Noto Sans JP";
+}
+
+@media (min-width: 1000px) {
+  .text-position0 {
+    left: 45%;
+    top: 14%;
+    font-size: 90px;
+    transform: rotate(-3deg);
+    font-family: "Dela Gothic One";
+  }
+
+  .text-position1 {
+    left: 43%;
+    top: 40%;
+    font-size: 24px;
+    font-family: "Noto Sans JP";
+  }
+
+  .subtext-position1 {
+    left: 42%;
+    top: 46%;
+    font-size: 19px;
+    font-family: "Noto Sans JP";
+  }
+
+  .subtext-position2 {
+    left: 61%;
+    top: 46%;
+    font-size: 19px;
+    font-family: "Noto Sans JP";
+  }
+
+  .subtext-position3 {
+    left: 80%;
+    top: 46%;
+    font-size: 19px;
+    font-family: "Noto Sans JP";
+  }
+
+  .text-position2 {
+    left: 43%;
+    top: 60%;
+    font-size: 24px;
+    font-family: "Noto Sans JP";
+  }
+
+  .text-position3 {
+    left: 43%;
+    top: 75.5%;
+    font-size: 24px;
+    font-family: "Noto Sans JP";
+  }
+
+  .text-position4 {
+    left: 43%;
+    top: 82%;
+    font-size: 24px;
+    font-family: "Noto Sans JP";
+  }
+
+  .text-position5 {
+    left: 43%;
+    top: 89%;
+    font-size: 24px;
+    font-family: "Noto Sans JP";
+  }
+}
+
+.message-text-position {
+  left: 12%;
+  top: 35%;
+  font-size: 2vw;
+  max-width: 75%;
+  line-height: 160%;
+  font-family: "Noto Sans JP";
+}
+
+@media (min-width: 1000px) {
+  .message-text-position {
+    left: 12%;
+    top: 35%;
+    font-size: 20px;
+    max-width: 75%;
+    line-height: 160%;
+    font-family: "Noto Sans JP";
+  }
+}
+
+.fullHeightContainer {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
