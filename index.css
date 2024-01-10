@@ -224,7 +224,7 @@
   justify-content: flex-start;
   padding: 108px 623px;
   gap: 40px;
-  background-image: url(./public/1stview@3x.png);
+  background-image: url("/public/1stview@3x.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -392,7 +392,7 @@
 /* For desktop devices */
 @media (min-width: 1025px) {
   .tablet-design-re {
-    padding: 100px 240px; /* Adjust as needed */
+    padding: 100px calc(25%);
   }
 }
 
@@ -450,7 +450,7 @@
 }
 
 .bg-image {
-  background-image: url("public/1stview@3x.png");
+  background-image: url("/public/1stview@3x.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -476,7 +476,7 @@
 
 /* 表紙の文字位置調整 */
 
-.text-position0 {
+.text-position0-wide {
   left: 45%;
   top: 14%;
   font-size: 9vw;
@@ -484,126 +484,124 @@
   font-family: "Dela Gothic One";
 }
 
-.text-position1 {
+.text-position1-wide {
   left: 43%;
   top: 39%;
   font-size: 3.5vw;
   font-family: "Noto Sans JP";
 }
 
-.subtext-position1 {
+.subtext-position1-wide {
   left: 42%;
   top: 45.8%;
   font-size: 2.3vw;
   font-family: "Noto Sans JP";
 }
 
-.subtext-position2 {
+.subtext-position2-wide {
   left: 61%;
   top: 45.8%;
   font-size: 2.3vw;
   font-family: "Noto Sans JP";
 }
 
-.subtext-position3 {
+.subtext-position3-wide {
   left: 80%;
   top: 45.8%;
   font-size: 2.3vw;
   font-family: "Noto Sans JP";
 }
 
-.text-position2 {
+.text-position2-wide {
   left: 43%;
   top: 59%;
   font-size: 3.5vw;
   font-family: "Noto Sans JP";
 }
 
-.text-position3 {
+.text-position3-wide {
   left: 43%;
   top: 74.9%;
   font-size: 3.5vw;
   font-family: "Noto Sans JP";
 }
 
-.text-position4 {
+.text-position4-wide {
   left: 43%;
   top: 81.5%;
   font-size: 3.5vw;
   font-family: "Noto Sans JP";
 }
 
-.text-position5 {
+.text-position5-wide {
   left: 43%;
   top: 88%;
   font-size: 3.5vw;
   font-family: "Noto Sans JP";
 }
 
-@media (min-width: 768px) {
-  .text-position0 {
-    left: 45%;
-    top: 14%;
-    font-size: 5.7vh;
-    transform: rotate(-3deg);
-    font-family: "Dela Gothic One";
-  }
+.text-position0-tall {
+  left: 45%;
+  top: 14%;
+  font-size: 5.7vh;
+  transform: rotate(-3deg);
+  font-family: "Dela Gothic One";
+}
 
-  .text-position1 {
-    left: 43%;
-    top: 39%;
-    font-size: 2vh;
-    font-family: "Noto Sans JP";
-  }
+.text-position1-tall {
+  left: 43%;
+  top: 39%;
+  font-size: 2vh;
+  font-family: "Noto Sans JP";
+}
 
-  .subtext-position1 {
-    left: 42%;
-    top: 46%;
-    font-size: 1.3vh;
-    font-family: "Noto Sans JP";
-  }
+.subtext-position1-tall {
+  left: 42%;
+  top: 46%;
+  font-size: 1.3vh;
+  font-family: "Noto Sans JP";
+}
 
-  .subtext-position2 {
-    left: 61%;
-    top: 46%;
-    font-size: 1.3vh;
-    font-family: "Noto Sans JP";
-  }
+.subtext-position2-tall {
+  left: 61%;
+  top: 46%;
+  font-size: 1.3vh;
+  font-family: "Noto Sans JP";
+}
 
-  .subtext-position3 {
-    left: 80%;
-    top: 46%;
-    font-size: 1.3vh;
-    font-family: "Noto Sans JP";
-  }
+.subtext-position3-tall {
+  left: 80%;
+  top: 46%;
+  font-size: 1.3vh;
+  font-family: "Noto Sans JP";
+}
 
-  .text-position2 {
-    left: 43%;
-    top: 59%;
-    font-size: 2vh;
-    font-family: "Noto Sans JP";
-  }
+.text-position2-tall {
+  left: 43%;
+  top: 59%;
+  font-size: 2vh;
+  font-family: "Noto Sans JP";
+}
 
-  .text-position3 {
-    left: 43%;
-    top: 75.5%;
-    font-size: 2vh;
-    font-family: "Noto Sans JP";
-  }
+.text-position3-tall {
+  left: 43%;
+  top: 75.5%;
+  font-size: 2vh;
+  font-family: "Noto Sans JP";
+}
 
-  .text-position4 {
-    left: 43%;
-    top: 82%;
-    font-size: 2vh;
-    font-family: "Noto Sans JP";
-  }
+.text-position4-tall {
+  left: 43%;
+  top: 82%;
+  font-size: 2vh;
+  font-family: "Noto Sans JP";
+}
 
-  .text-position5 {
-    left: 43%;
-    top: 89%;
-    font-size: 2vh;
-    font-family: "Noto Sans JP";
-  }
+.text-position5-tall {
+  left: 43%;
+  top: 89%;
+  font-size: 2vh;
+  font-family: "Noto Sans JP";
 }
 
 .message-text-position {
@@ -679,7 +677,7 @@
 @media (max-width: 600px) {
   .relativeFontSize2 {
     font-size: 12px;
-    font-family: "Yu Mincho";
+    font-family: "Noto Sans JP";
   }
 }
 
@@ -687,7 +685,7 @@
 @media (min-width: 601px) and (max-width: 1024px) {
   .relativeFontSize2 {
     font-size: 16px;
-    font-family: "Yu Mincho";
+    font-family: "Noto Sans JP";
   }
 }
 
@@ -695,6 +693,35 @@
 @media (min-width: 1025px) {
   .relativeFontSize2 {
     font-size: 20px;
+    font-family: "Noto Sans JP";
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 600px) {
+  .relativeFontSize3 {
+    font-size: 12px;
     font-family: "Yu Mincho";
   }
+}
+
+/* For tablet devices */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .relativeFontSize3 {
+    font-size: 20px;
+    font-family: "Yu Mincho";
+  }
+}
+
+/* For desktop devices */
+@media (min-width: 1025px) {
+  .relativeFontSize3 {
+    font-size: 32px;
+    font-family: "Yu Mincho";
+  }
+}
+
+.indent {
+  text-indent: -1em;
+  padding-left: 1em;
 }
