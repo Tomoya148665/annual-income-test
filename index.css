@@ -210,7 +210,7 @@
   flex-direction: column;
   gap: 16px;
   font-size: 3fir2px;
-  font-family: "Yu Mincho";
+  font-family: "Yu Mincho", "YuMincho";
 }
 .sns,
 .firstview,
@@ -372,7 +372,7 @@
   text-align: left;
   font-size: 20px;
   color: #fff;
-  font-family: "Yu Mincho";
+  font-family: "Yu Mincho", "YuMincho";
 }
 
 /* For mobile devices */
@@ -629,7 +629,7 @@
 @media (max-width: 600px) {
   .relativeFontSize {
     font-size: 16px;
-    font-family: "Yu Mincho";
+    font-family: "Yu Mincho", "YuMincho";
   }
 }
 
@@ -637,7 +637,7 @@
 @media (min-width: 601px) and (max-width: 1024px) {
   .relativeFontSize {
     font-size: 26px;
-    font-family: "Yu Mincho";
+    font-family: "Yu Mincho", "YuMincho";
   }
 }
 
@@ -645,7 +645,7 @@
 @media (min-width: 1025px) {
   .relativeFontSize {
     font-size: 32px;
-    font-family: "Yu Mincho";
+    font-family: "Yu Mincho", "YuMincho";
   }
 }
 
@@ -653,7 +653,7 @@
 @media (max-width: 600px) {
   .relativeFontSize1 {
     font-size: 18px;
-    font-family: "Yu Mincho";
+    font-family: "Yu Mincho", "YuMincho";
   }
 }
 
@@ -661,7 +661,7 @@
 @media (min-width: 601px) and (max-width: 1024px) {
   .relativeFontSize1 {
     font-size: 28px;
-    font-family: "Yu Mincho";
+    font-family: "Yu Mincho", "YuMincho";
   }
 }
 
@@ -669,7 +669,7 @@
 @media (min-width: 1025px) {
   .relativeFontSize1 {
     font-size: 40px;
-    font-family: "Yu Mincho";
+    font-family: "Yu Mincho", "YuMincho";
   }
 }
 
@@ -701,7 +701,7 @@
 @media (max-width: 600px) {
   .relativeFontSize3 {
     font-size: 12px;
-    font-family: "Yu Mincho";
+    font-family: "Yu Mincho", "YuMincho";
   }
 }
 
@@ -709,7 +709,7 @@
 @media (min-width: 601px) and (max-width: 1024px) {
   .relativeFontSize3 {
     font-size: 20px;
-    font-family: "Yu Mincho";
+    font-family: "Yu Mincho", "YuMincho";
   }
 }
 
@@ -717,7 +717,7 @@
 @media (min-width: 1025px) {
   .relativeFontSize3 {
     font-size: 32px;
-    font-family: "Yu Mincho";
+    font-family: "Yu Mincho", "YuMincho";
   }
 }
 
